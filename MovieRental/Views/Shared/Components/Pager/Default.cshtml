@@ -1,0 +1,70 @@
+﻿@model MovieRental.Data.PagedResultBase
+@{
+    var request = ViewContext.HttpContext.Request;
+    var urlTemplate = request.Path.Value;
+    var query = "";
+    foreach (var key in request.Query.Keys)
+    {
+        if (key == "page")
+        {
+            continue;
+        }
+
+        query += "&" + key + "=" + request.Query[key];
+    }
+
+    if (!string.IsNullOrEmpty(query))
+    {
+        query = query.Substring(1);
+        urlTemplate += "?" + query + "&";
+    }
+    else
+    {
+        urlTemplate += "?";
+    }
+
+    urlTemplate += "page=";
+
+    var startIndex = Math.Max(Model.CurrentPage - 5, 1);
+    var finishIndex = Math.Min(Model.CurrentPage + 5, Model.PageCount);
+}
+@if (Model.PageCount > 1)
+{
+    <ul class="pagination">
+        <li class="paginate_button page-item first" id="kt_table_1_first">
+            <a tabindex="0" class="page-link" aria-controls="kt_table_1" href="@Html.Raw(urlTemplate + "1")">
+                &laquo;
+            </a>
+        </li>
+        <li class="paginate_button page-item previous" id="kt_table_1_previous">
+            <a tabindex="0" class="page-link" aria-controls="kt_table_1" href="@Html.Raw(urlTemplate + (Model.CurrentPage-1))">
+                &lsaquo;
+            </a>
+        </li>
+        @for (var i = startIndex; i <= finishIndex; i++)
+        {
+            @if (i == Model.CurrentPage)
+            {
+                <li class="paginate_button page-item active">
+                    <a style="background-color: #67bd3c" tabindex="0" class="page-link" aria-controls="kt_table_1" href="@Html.Raw(urlTemplate + i)">@i</a>
+                </li>
+            }
+            else
+            {
+                <li class="paginate_button page-item ">
+                    <a tabindex="0" class="page-link" aria-controls="kt_table_1" href="@Html.Raw(urlTemplate + i)">@i</a>
+                </li>
+            }
+        }
+        <li class="paginate_button page-item next" id="kt_table_1_next">
+            <a tabindex="0" class="page-link" aria-controls="kt_table_1" href="@Html.Raw(urlTemplate + (Math.Min(Model.CurrentPage + 1, Model.PageCount)))">
+                &rsaquo;
+            </a>
+        </li>
+        <li class="paginate_button page-item last" id="kt_table_1_last">
+            <a tabindex="0" class="page-link" aria-controls="kt_table_1" href="@Html.Raw(urlTemplate + Model.PageCount)">
+                &raquo;
+            </a>
+        </li>
+    </ul>
+}

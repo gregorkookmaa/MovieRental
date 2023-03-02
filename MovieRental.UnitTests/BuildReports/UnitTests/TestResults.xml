@@ -1,0 +1,350 @@
+<assemblies timestamp="03/02/2023 15:11:55">
+  <assembly name="C:\Users\GreX\Desktop\MovieRental-master\MovieRental.UnitTests\bin\Debug\net5.0\MovieRental.UnitTests.dll" run-date="2023-03-02" run-time="15:11:55" total="109" passed="109" failed="0" skipped="0" time="1.810" errors="0">
+    <errors />
+    <collection total="15" passed="15" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ControllerTests.ClientsControllerTests" time="0.127">
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Details_returns_correct_result_when_client_is_found" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Details_returns_correct_result_when_client_is_found" time="0.0835679" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Edit_should_save_client_data" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Edit_should_save_client_data" time="0.0029196" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Delete_should_return_not_found_when_client_does_not_exist" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Delete_should_return_not_found_when_client_does_not_exist" time="0.0013134" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Delete_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Delete_should_return_not_found_if_id_is_null" time="0.0004222" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Edit_should_stay_on_form_when_model_is_invalid" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Edit_should_stay_on_form_when_model_is_invalid" time="0.0006543" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.DeleteConfirmed_should_delete_client" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="DeleteConfirmed_should_delete_client" time="0.0032992" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Details_should_return_not_found_if_client_is_null" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Details_should_return_not_found_if_client_is_null" time="0.0009672" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Index_should_return_default_view" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Index_should_return_default_view" time="0.0030020" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Index_should_survive_null_model" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Index_should_survive_null_model" time="0.0013670" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Edit_should_return_notfound_when_ids_do_not_match" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Edit_should_return_notfound_when_ids_do_not_match" time="0.0054166" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Details_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Details_should_return_not_found_if_id_is_null" time="0.0036043" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Index_should_return_list_of_clients" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Index_should_return_list_of_clients" time="0.0127166" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Edit_should_return_badresult_when_model_is_null" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Edit_should_return_badresult_when_model_is_null" time="0.0028636" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.DeleteConfirmed_should_return_not_found_if_client_is_null" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="DeleteConfirmed_should_return_not_found_if_client_is_null" time="0.0035529" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.ClientsControllerTests.Delete_should_show_confirmation_page" type="MovieRental.UnitTests.ControllerTests.ClientsControllerTests" method="Delete_should_show_confirmation_page" time="0.0015690" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ControllerTests.HomeControllerTests" time="0.084">
+      <test name="MovieRental.UnitTests.ControllerTests.HomeControllerTests.Upload_should_save_file" type="MovieRental.UnitTests.ControllerTests.HomeControllerTests" method="Upload_should_save_file" time="0.0831934" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.HomeControllerTests.Upload_should_survive_null_collection" type="MovieRental.UnitTests.ControllerTests.HomeControllerTests" method="Upload_should_survive_null_collection" time="0.0003245" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="15" passed="15" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ControllerTests.MoviesControllerTests" time="0.126">
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Index_should_return_default_view" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Index_should_return_default_view" time="0.0832365" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Edit_should_return_notfound_when_ids_does_not_match" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Edit_should_return_notfound_when_ids_does_not_match" time="0.0035505" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Edit_should_save_movie_data" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Edit_should_save_movie_data" time="0.0023552" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Details_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Details_should_return_not_found_if_id_is_null" time="0.0007337" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Delete_should_return_not_found_when_movie_does_not_exist" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Delete_should_return_not_found_when_movie_does_not_exist" time="0.0013669" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Index_should_survive_null_model" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Index_should_survive_null_model" time="0.0011207" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Index_should_return_list_of_movies" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Index_should_return_list_of_movies" time="0.0012655" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.DeleteConfirmed_should_delete_movie" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="DeleteConfirmed_should_delete_movie" time="0.0024292" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Delete_should_show_confirmation_page" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Delete_should_show_confirmation_page" time="0.0011670" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Details_returns_correct_result_when_movie_is_found" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Details_returns_correct_result_when_movie_is_found" time="0.0053517" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.DeleteConfirmed_should_return_not_found_if_movie_is_null" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="DeleteConfirmed_should_return_not_found_if_movie_is_null" time="0.0040748" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Edit_should_return_badresult_when_model_is_null" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Edit_should_return_badresult_when_model_is_null" time="0.0117705" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Edit_should_stay_on_form_when_model_is_invalid" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Edit_should_stay_on_form_when_model_is_invalid" time="0.0038888" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Details_should_return_not_found_if_movie_is_null" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Details_should_return_not_found_if_movie_is_null" time="0.0033730" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.MoviesControllerTests.Delete_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.MoviesControllerTests" method="Delete_should_return_not_found_if_id_is_null" time="0.0005295" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="15" passed="15" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" time="0.123">
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Edit_should_save_rentingMovie_data" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Edit_should_save_rentingMovie_data" time="0.0798384" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Delete_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Delete_should_return_not_found_if_id_is_null" time="0.0009172" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Index_should_return_default_view" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Index_should_return_default_view" time="0.0021796" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.DeleteConfirmed_should_return_not_found_if_rentingMovie_is_null" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="DeleteConfirmed_should_return_not_found_if_rentingMovie_is_null" time="0.0017710" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Details_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Details_should_return_not_found_if_id_is_null" time="0.0010265" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Delete_should_show_confirmation_page" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Delete_should_show_confirmation_page" time="0.0062787" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Edit_should_stay_on_form_when_model_is_invalid" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Edit_should_stay_on_form_when_model_is_invalid" time="0.0006186" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Details_should_return_not_found_if_rentingMovie_is_null" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Details_should_return_not_found_if_rentingMovie_is_null" time="0.0007279" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Delete_should_return_not_found_when_rentingMovie_does_not_exist" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Delete_should_return_not_found_when_rentingMovie_does_not_exist" time="0.0007433" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.DeleteConfirmed_should_delete_rentingMovie" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="DeleteConfirmed_should_delete_rentingMovie" time="0.0059518" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Edit_should_return_notfound_when_ids_does_not_match" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Edit_should_return_notfound_when_ids_does_not_match" time="0.0120017" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Index_should_survive_null_model" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Index_should_survive_null_model" time="0.0038183" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Index_should_return_list_of_rentingMovies" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Index_should_return_list_of_rentingMovies" time="0.0036816" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Details_returns_correct_result_when_rentingMovie_is_found" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Details_returns_correct_result_when_rentingMovie_is_found" time="0.0029908" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests.Edit_should_return_badresult_when_model_is_null" type="MovieRental.UnitTests.ControllerTests.RentingMoviesControllerTests" method="Edit_should_return_badresult_when_model_is_null" time="0.0004324" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="15" passed="15" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ControllerTests.RentingsControllerTests" time="0.125">
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Details_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Details_should_return_not_found_if_id_is_null" time="0.0705119" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Edit_should_save_renting_data" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Edit_should_save_renting_data" time="0.0089359" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Edit_should_return_badresult_when_model_is_null" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Edit_should_return_badresult_when_model_is_null" time="0.0004308" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Edit_should_return_notfound_when_ids_does_not_match" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Edit_should_return_notfound_when_ids_does_not_match" time="0.0031249" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Edit_should_stay_on_form_when_model_is_invalid" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Edit_should_stay_on_form_when_model_is_invalid" time="0.0009776" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Delete_should_return_not_found_when_renting_does_not_exist" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Delete_should_return_not_found_when_renting_does_not_exist" time="0.0015419" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Details_returns_correct_result_when_renting_is_found" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Details_returns_correct_result_when_renting_is_found" time="0.0008082" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Index_should_survive_null_model" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Index_should_survive_null_model" time="0.0025159" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.DeleteConfirmed_should_delete_renting" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="DeleteConfirmed_should_delete_renting" time="0.0028784" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Delete_should_show_confirmation_page" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Delete_should_show_confirmation_page" time="0.0014682" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Index_should_return_list_of_rentings" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Index_should_return_list_of_rentings" time="0.0059374" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Delete_should_return_not_found_if_id_is_null" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Delete_should_return_not_found_if_id_is_null" time="0.0033227" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Details_should_return_not_found_if_renting_is_null" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Details_should_return_not_found_if_renting_is_null" time="0.0166968" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.Index_should_return_default_view" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="Index_should_return_default_view" time="0.0047007" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ControllerTests.RentingsControllerTests.DeleteConfirmed_should_return_not_found_if_renting_is_null" type="MovieRental.UnitTests.ControllerTests.RentingsControllerTests" method="DeleteConfirmed_should_return_not_found_if_renting_is_null" time="0.0009762" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="11" passed="11" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ServiceTests.ClientServiceTests" time="0.200">
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.Save_should_handle_missing_client" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="Save_should_handle_missing_client" time="0.1286026" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.Delete_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="Delete_should_survive_null_model" time="0.0058549" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.Save_should_save_valid_client" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="Save_should_save_valid_client" time="0.0075300" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.List_returns_paged_list_of_client_models" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="List_returns_paged_list_of_client_models" time="0.0130245" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.Delete_handles_null_client" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="Delete_handles_null_client" time="0.0038173" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.GetForEdit_should_return_client" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="GetForEdit_should_return_client" time="0.0113089" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.GetForEdit_should_return_null_if_client_was_not_found" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="GetForEdit_should_return_null_if_client_was_not_found" time="0.0042498" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.GetById_should_return_null_if_client_was_not_found" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="GetById_should_return_null_if_client_was_not_found" time="0.0057954" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.Save_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="Save_should_survive_null_model" time="0.0071255" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.GetById_should_return_client" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="GetById_should_return_client" time="0.0083021" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.ClientServiceTests.Delete_deletes_client" type="MovieRental.UnitTests.ServiceTests.ClientServiceTests" method="Delete_deletes_client" time="0.0039927" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="11" passed="11" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ServiceTests.MovieServiceTests" time="0.191">
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.Save_should_handle_missing_movie" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="Save_should_handle_missing_movie" time="0.1289729" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.GetById_should_return_null_if_movie_was_not_found" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="GetById_should_return_null_if_movie_was_not_found" time="0.0060751" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.List_returns_paged_list_of_movie_models" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="List_returns_paged_list_of_movie_models" time="0.0088340" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.GetForEdit_should_return_movie" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="GetForEdit_should_return_movie" time="0.0088270" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.GetById_should_return_movie" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="GetById_should_return_movie" time="0.0054749" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.Save_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="Save_should_survive_null_model" time="0.0031973" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.Delete_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="Delete_should_survive_null_model" time="0.0090261" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.Save_should_save_valid_movie" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="Save_should_save_valid_movie" time="0.0055736" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.GetForEdit_should_return_null_if_movie_was_not_found" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="GetForEdit_should_return_null_if_movie_was_not_found" time="0.0034496" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.Delete_handles_null_movie" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="Delete_handles_null_movie" time="0.0033857" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.MovieServiceTests.Delete_deletes_movie" type="MovieRental.UnitTests.ServiceTests.MovieServiceTests" method="Delete_deletes_movie" time="0.0077745" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="13" passed="13" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" time="0.214">
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Save_should_handle_missing_renting" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Save_should_handle_missing_renting" time="0.1353077" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Save_should_save_valid_rentingMovie" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Save_should_save_valid_rentingMovie" time="0.0063443" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Delete_deletes_rentingMovie" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Delete_deletes_rentingMovie" time="0.0092590" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Save_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Save_should_survive_null_model" time="0.0033635" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.GetById_should_return_rentingMovie" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="GetById_should_return_rentingMovie" time="0.0063262" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.List_returns_paged_list_of_rentingMovie_models" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="List_returns_paged_list_of_rentingMovie_models" time="0.0133688" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Save_should_handle_missing_rentingMovie" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Save_should_handle_missing_rentingMovie" time="0.0057328" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Delete_handles_null_rentingMovie" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Delete_handles_null_rentingMovie" time="0.0082092" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Save_should_handle_missing_movie" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Save_should_handle_missing_movie" time="0.0067758" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.GetById_should_return_null_if_rentingMovie_was_not_found" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="GetById_should_return_null_if_rentingMovie_was_not_found" time="0.0039499" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.Delete_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="Delete_should_survive_null_model" time="0.0026895" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.GetForEdit_should_return_rentingMovie" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="GetForEdit_should_return_rentingMovie" time="0.0083405" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests.GetForEdit_should_return_null_if_rentingMovie_was_not_found" type="MovieRental.UnitTests.ServiceTests.RentingMovieServiceTests" method="GetForEdit_should_return_null_if_rentingMovie_was_not_found" time="0.0039948" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="12" passed="12" failed="0" skipped="0" name="Test collection for MovieRental.UnitTests.ServiceTests.RentingServiceTests" time="0.199">
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.Save_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="Save_should_survive_null_model" time="0.1277407" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.GetById_should_return_renting" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="GetById_should_return_renting" time="0.0102070" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.Delete_should_survive_null_model" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="Delete_should_survive_null_model" time="0.0043990" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.List_returns_paged_list_of_renting_models" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="List_returns_paged_list_of_renting_models" time="0.0109370" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.GetById_should_return_null_if_renting_was_not_found" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="GetById_should_return_null_if_renting_was_not_found" time="0.0036113" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.Save_should_handle_missing_renting" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="Save_should_handle_missing_renting" time="0.0039682" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.GetForEdit_should_return_null_if_renting_was_not_found" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="GetForEdit_should_return_null_if_renting_was_not_found" time="0.0097169" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.GetForEdit_should_return_renting" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="GetForEdit_should_return_renting" time="0.0061903" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.Save_should_handle_missing_client" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="Save_should_handle_missing_client" time="0.0045392" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.Delete_handles_null_renting" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="Delete_handles_null_renting" time="0.0065616" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.Save_should_save_valid_renting" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="Save_should_save_valid_renting" time="0.0066032" result="Pass">
+        <traits />
+      </test>
+      <test name="MovieRental.UnitTests.ServiceTests.RentingServiceTests.Delete_deletes_renting" type="MovieRental.UnitTests.ServiceTests.RentingServiceTests" method="Delete_deletes_renting" time="0.0046946" result="Pass">
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>

@@ -1,0 +1,87 @@
+﻿@model MovieRental.Data.PagedResult<MovieRental.Models.ViewModels.ClientModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Clients</h1>
+
+<p>
+    <a asp-action="Create">Create new client</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by client name: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Search" class="btn btn-primary" /> |
+           
+            <a asp-action="Index">Back to full list</a>
+        </p>
+    </div>
+</form>
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">First name</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["LastNameSortParm"]">Last name</a>
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Phone
+                </th>
+                <th>
+                    Membership
+                </th>
+                <th>
+                    Additional information
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Results)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Membership)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdditionalInfo)
+                </td>
+                <td style="text-align: center">
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    <vc:pager result="Model" view-name="Default" />
+</div>

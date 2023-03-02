@@ -1,0 +1,65 @@
+﻿@model MovieRental.Models.ViewModels.RentingModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Renting</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Expires)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Expires)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ClientName)
+        </dd>
+        <dt class="col-sm-2">
+            Movies rented
+        </dt>
+        <dd class="col-sm-10">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Movie name
+                        </th>
+                        <th>
+                            Client Rating
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.RentingMovies)
+                    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Movie.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientRating)
+            </td>
+        </tr>}
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID"  class="btn btn-danger">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

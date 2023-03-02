@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the MovieRental Service</h1>
+</div>
+<div class="text-center">
+    <h2>This app helps MovieRental stores/businesses to manage the information related to their clients and clients' movie rentals</h2>
+</div>
+<div>
+    <img src ="~/assets/corporate/img/pics/home_page_image.jpg" style="max-width: 100%"/>
+
+</div>
+
+<br />
+<br />
+
+<br />
+<div class="row">
+    <div class="">
+        <h5>You can upload files here:</h5>
+    </div>
+    <div class="col-12">
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="uploadedFiles" multiple />
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+</div>
